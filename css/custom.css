@@ -47,6 +47,18 @@
 }
 
 
-/* main sction */
+/* main section */
+
+.left-column {
+   display: inline-block;
+   float: left;
+   width: 50%;
+}
+.right-column {
+   display: inline-block;
+   float: right;
+   width: 40%;
+}
+
 
 /* footer section */
