@@ -83,3 +83,26 @@ main .block-description > a {
 }
 
 /* footer section */
+
+footer {
+   text-align: center;
+   line-height: 30px;
+   color: #fff8;
+}
+footer a {
+   color: #fff;
+}
+
+.footer-logo {
+   height: 40px;
+   margin: 30px 0;
+}
+.bottom-texts {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+   
+}
+.bottom-texts > p {
+   
+}
