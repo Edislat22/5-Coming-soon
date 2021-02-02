@@ -90,7 +90,8 @@ footer {
    color: #fff8;
 }
 footer a {
-   color: #fff;
+   color: #fff;text-decoration: none;
+
 }
 
 .footer-logo {
@@ -99,10 +100,43 @@ footer a {
 }
 .bottom-texts {
    display: flex;
+   width: 100%;
+   flex-direction: row;
    justify-content: center;
-   gap: 15px;
+   gap: 0 15px;
    
 }
 .bottom-texts > p {
-   
+   position: relative;
+}
+.bottom-texts > p::before {
+   display: inline-block;
+   content: '';
+   width: 2px;
+   height: 15px;
+   background-color: #fff;
+   position: absolute;
+   top: 50%;
+   left: -8px;
+   transform: translateY(-50%);
+}
+.bottom-texts > p:first-of-type::before {
+   display: none;
+}
+
+.bottom-texts a:hover {
+   text-decoration: underline;
+}
+footer >.short-row > p {
+   display: inline-block;
+   width: 100%;
+}
+
+@media (max-width: 500px) {
+   .bottom-texts {
+      flex-direction: column;
+   }
+   .bottom-texts > p::before {
+      display: none;
+   }
 }
