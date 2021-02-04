@@ -1,2 +1,4 @@
-console.log('Coming soon...');
-console.log('------------------------------');
+import { socialsData } from './data/socialsData.js';
+import { renderSocials } from './components/renderSocials.js';
+
+renderSocials(socialsData);
