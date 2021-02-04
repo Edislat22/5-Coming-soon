@@ -3,6 +3,7 @@ const socialsData = [
       icon: 'facebook',
       href: '#'
    },
+
    {
       icon: 'twitter',
       href: '#'
@@ -11,16 +12,22 @@ const socialsData = [
       icon: 'dribbble',
       href: '#'
    },
+
    {
-      icon: 'tumble',
+      icon: 'tumblr',
       href: '#'
    },
+
    {
       icon: 'instagram',
       href: '#'
    },
    {
       icon: 'linkedin',
+      href: '#'
+   },
+   {
+      icon: 'skype',
       href: '#'
    },
    {

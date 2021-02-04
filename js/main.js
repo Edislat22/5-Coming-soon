@@ -1,4 +1,4 @@
 import { socialsData } from './data/socialsData.js';
 import { renderSocials } from './components/renderSocials.js';
 
-renderSocials(socialsData);
+renderSocials('footer > .socials', socialsData);
