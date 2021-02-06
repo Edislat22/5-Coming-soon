@@ -1,6 +1,7 @@
 function clock(selector) {
    const clockDOM = document.querySelector(selector);
-   const numbers = [432, 9, 37, 39];
+   const deadline = '01-04 14:00:00';
+   let numbers = calcTime();
    const labels = ['days', 'hours', 'minutes', 'seconds'];
    let HTML = '';
 
@@ -12,6 +13,11 @@ function clock(selector) {
    }
 
    clockDOM.innerHTML = HTML;
+
+   setInterval(function() {
+      numbers = calcTime(deadline);
+      console.log(numbers);
+   }, 1000);
 }
 
 function numberFormat(number) {
@@ -19,6 +25,21 @@ function numberFormat(number) {
       return '0' + number;
    }
    return number;
+}
+
+function calcTime(deadline) {
+   const date = new Date();
+   let year = date.getFullYear();
+   let fullDeadline = `${year}-${deadline}`;
+   const fullDeadlineInMiliseconds = (new Date(fullDeadline)).getTime();
+
+   if (fullDeadlineInMiliseconds < Date.now()) {
+       year++;
+       fullDeadline = `${year}-${deadline}`;
+   }
+
+   console.log(fullDeadline);
+   return [432, 9, 37, 39];
 }
 
 export { clock }
