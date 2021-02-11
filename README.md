@@ -15,10 +15,10 @@ Design: [Coming soon](https://cdn.discordapp.com/attachments/648536139677958156/
 
 ## Project features
 
--   responsive design
+-   responsive design;
 -   repetitive content is generated/rendered;
--   css animations
--   form validations
+-   css animations;
+-   form validations;
 
 ## Authors
 
