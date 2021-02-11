@@ -8,7 +8,7 @@ const progressBarData = [
       value: 86
    }
    {
-      label: 'Web developent',
+      label: 'Web development',
       value: 50
    },
 ];
