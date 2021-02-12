@@ -60,7 +60,7 @@
    width: 40%;
 }
 main .block-title {
-   margin-bottom: 30px;
+   margin-bottom: 20px;
    text-transform: uppercase;
 }
 main .block-description {
@@ -75,7 +75,7 @@ main .block-description > a {
 @media (max-width: 900px) {
    .left-column {
       width: 100%;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
    }
    .right-column {
       width: 100%;
