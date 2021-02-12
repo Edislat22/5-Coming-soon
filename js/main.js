@@ -7,5 +7,5 @@ import { renderSocials } from './components/renderSocials.js';
 clock('.clock', '01-04 14:00:00');
 renderSocials('footer > .socials', socialsData);
 
-const progress = new ProgressBar('.left-column', progressBarData);
-progress.isValidSelector();
+new ProgressBar('.left-column', progressBarData);
+new ProgressBar('.right-column', progressBarData);
