@@ -75,7 +75,9 @@ main .block-description > a {
 @media (max-width: 700px) {
    .left-column {
       width: 100%;
+
       margin-bottom: 30px;
+
    }
    .right-column {
       width: 100%;
