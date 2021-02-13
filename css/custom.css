@@ -60,11 +60,11 @@
    width: 40%;
 }
 main .block-title {
-   margin-bottom: 30px;
+   margin-bottom: 20px;
    text-transform: uppercase;
 }
 main .block-description {
-   margin-bottom: 30px;
+   margin-bottom: 20px;
    font-size: 18px;
 }
 main .block-description > a {
@@ -72,10 +72,10 @@ main .block-description > a {
    color: rgb(220, 20, 160);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
    .left-column {
       width: 100%;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
    }
    .right-column {
       width: 100%;
