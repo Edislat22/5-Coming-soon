@@ -9,3 +9,4 @@ renderSocials('footer > .socials', socialsData);
 
 new ProgressBar('.left-column', progressBarData);
 new ProgressBar('.right-column', progressBarData);
+
