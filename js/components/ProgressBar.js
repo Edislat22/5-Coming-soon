@@ -35,7 +35,6 @@ class ProgressBar {
     }
 
     generateProgressBar(progressBar) {
-        console.log(progressBar);
         return `<div class="progress-bar">
                   <div class="texts">
                      <div class="label">${progressBar.label}</div>

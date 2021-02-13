@@ -1,10 +1,9 @@
 .progress-bar {
     display: inline-block;
     width: 100%;
-    margin-bottom: 30px;
 }
-.progress-bar:last-of-type {
-    margin-bottom: 0;
+.progress-bar + .progress-bar {
+    margin-top: 30;
 }
 .progress-bar > .texts {
     display: inline-block;
@@ -26,4 +25,9 @@
     background-color: #ddd;
 }
 .progress-bar > .bar > .progress {
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    background-color: var(--main-color);
+    
 }
