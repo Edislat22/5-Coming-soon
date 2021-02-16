@@ -42,22 +42,23 @@ const progressBarData = [
       label: 'Programming',
       value: 120
    },
-   {
-      label: 'Programming',
-      value: 50.148525145
-   },
+   
    {
       label: ' ',
       value: 30
    },
-   {
-      label: 'Programming',
-      value: 100
-   },
-   {
-      label: 'Programming',
-      value: 0
-   },
+   // {
+   //    label: 'Programming',
+   //    value: 50.148525145
+   // },
+   // {
+   //    label: 'Programming',
+   //    value: 100
+   // },
+   // {
+   //    label: 'Programming',
+   //    value: 0
+   // },
    {
       label: 'UX design',
       value: 90
