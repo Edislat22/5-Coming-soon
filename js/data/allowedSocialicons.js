@@ -5,8 +5,9 @@ const allowedSocialIcons = [
    'tumblr',
    'instagram',
    'linkedin',
-   'skype',
-   'rss'
+   'rss',
+   'skype'
+   
 ];
 
 export { allowedSocialIcons }

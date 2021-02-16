@@ -36,13 +36,6 @@ const socialsData = [
    },
 
 
-
-
-
-
-
-
-
 ];
 
 export { socialsData }
