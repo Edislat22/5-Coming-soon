@@ -1,13 +1,12 @@
 const allowedSocialIcons = [
-   // 'facebook',
-   // 'twitter',
-   // 'dribbble',
-   // 'tumblr',
-   // 'instagram',
-   // 'linkedin',
-   // 'rss',
-   // 'skype'
-   
+   'facebook',
+   'twitter',
+   'dribbble',
+   'tumblr',
+   'instagram',
+   'linkedin',
+   'skype',
+   'rss'  
 ];
 
 export { allowedSocialIcons }
