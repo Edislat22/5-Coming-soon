@@ -42,7 +42,7 @@ function renderSocials(selector, data) {
 
    if (HTML === '') {
       console.error('ERROR: tarp pateiktu duomenu nera tinkamos informacijos');
-      return false
+      return false;
    }
 
    // return result
