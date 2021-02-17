@@ -8,6 +8,7 @@ const socialsData = [
       icon: 'twitter',
       href: '#'
    },
+
    {
       icon: 'dribbble',
       href: '#'
@@ -34,15 +35,6 @@ const socialsData = [
       icon: 'rss',
       href: '#'
    },
-
-
-
-
-
-
-
-
-
 ];
 
 export { socialsData }

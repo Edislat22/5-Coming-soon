@@ -6,7 +6,7 @@ const allowedSocialIcons = [
    'instagram',
    'linkedin',
    'skype',
-   'rss'
+   'rss'  
 ];
 
 export { allowedSocialIcons }
