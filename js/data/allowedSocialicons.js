@@ -8,5 +8,4 @@ const allowedSocialIcons = [
    'skype',
    'rss'  
 ];
-
 export { allowedSocialIcons }
