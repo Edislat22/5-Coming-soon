@@ -7,12 +7,33 @@ class Forms {
 
     init() {
         this.findAllForms();
+        this.addEvents();
+
+        console.log(this.forms);
     }
 
     findAllForms() {
-        
+        const forms = document.querySelectorAll('.form');
+        this.forms = [...forms];
     }
+    
+    addEvents() {
+        for (const form of this.forms) {
 
+            const inputs = form.querySelectorAll('input');
+            const textareas = form.querySelectorAll('textarea');
+            const allInputs = [...inputs, ...textareas];
+
+            const submit = form.querySelector('.btn');
+
+            submit.addEventListener('click', (event) => {
+                event.preventDefault();
+                
+                for (const input of allInputs) {
+                    console.log(input.dataset);
+                }
+            })
+        }
+    }
 }
-
 export { Forms }    
