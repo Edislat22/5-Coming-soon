@@ -9,6 +9,10 @@
 .hero {
    text-align: center;
    padding-bottom: 20px;
+   background-image: url(../img/background.png);
+   background-size: cover;
+   /* background-position: center bottom; */
+   background-attachment: fixed;
 }
 
 .hero .logo {
@@ -24,6 +28,7 @@
    text-transform: uppercase;
    font-size: 40px;
    line-height: 60px;
+   /* font-family: 'Pangolin', cursive; */
 }
 
 .hero .subtitle {
