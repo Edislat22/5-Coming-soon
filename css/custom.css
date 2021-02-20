@@ -8,8 +8,8 @@
 
 .hero {
    text-align: center;
-   padding-bottom: 20px;
-   background-image: url(../img/background.png);
+   padding-bottom: 30px;
+   background-image: url(../img/banner.jpg);
    background-size: cover;
    /* background-position: center bottom; */
    background-attachment: fixed;
