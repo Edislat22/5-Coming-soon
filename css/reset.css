@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body,
 body * {
     margin: 0;
@@ -13,6 +17,6 @@ body * {
 
 
 
-1) ctrl = shift + p
+/* 1) ctrl = shift + p
 2) search: user snippets
-3) css.json
+3) css.json */
