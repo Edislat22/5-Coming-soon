@@ -38,7 +38,8 @@
 
             <div class="clock"></div>
             <form class="form">
-                <input data-validation-rule="email" type="email" placeholder="Type your email" required>
+                <label for="name"></label>
+                <input id="name" data-validation-rule="email" type="email" placeholder="Type your email" required>
                 <button class="btn" type="submit">Subskribe now</button>
             </form>
 
@@ -71,9 +72,12 @@
                   libero placeat natus?</p>
 
               <form class="form">
-                  <input data-validation-rule="name" type="text" placeholder="Name" required>
-                  <input data-validation-rule="email" type="email" placeholder="Email" required>
-                  <textarea data-validation-rule="text" placeholder="Message" required></textarea>
+                  <label for="msg-name"></label>
+                  <input id="msg-name" data-validation-rule="name" type="text" placeholder="Name" required>
+                  <label for="msg-email"></label>
+                  <input id="msg-email" data-validation-rule="email" type="email" placeholder="Email" required>
+                  <label for="msg"></label> 
+                  <textarea id="msg" data-validation-rule="text" placeholder="Message" required></textarea>
                   <button class="btn" type="submit">Send Message</button>
               </form>
            </div>
@@ -81,7 +85,10 @@
     </main>
 
     <footer class="container bg-main">
-        <div class="socials"></div>
+        <div class="row back-to-top">
+            <a href="#" class="btn fa fa-angle-up"></a>
+        </div>
+        <div class="row socials"></div>
         <div class="short-row">
             <img class="footer-logo" src="./img/logo-white.png" alt="Footer logo">
             <div class="bottom-texts">
