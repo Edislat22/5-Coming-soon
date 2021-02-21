@@ -1,8 +1,8 @@
-import { allowedSocialIcons } from '../data/allowedSocialIcons.js';
+import { allowedSocialIcons } from '../data/allowedSocialicons.js';
 
 function renderSocials(selector, data) {
    // input validation
-   if (typeof selector !== 'string' ||
+   if (typeof selector !== 'string' ||       
    selector === '') {
       console.error('ERROR: netinkamas selektoriaus parametras.');
       return false;
@@ -33,7 +33,7 @@ function renderSocials(selector, data) {
            !allowedSocialIcons.includes(socialObject.icon)) {
            console.warn('WARNING: netinkamo formato objektas', socialObject);
            continue;
-           }
+         }
    
        HTML += `<a href="${socialObject.href}" target="_blank" class="fa fa-${socialObject.icon}"></a>`;
    }
