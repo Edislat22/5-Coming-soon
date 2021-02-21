@@ -7,11 +7,12 @@
 /* hero section */
 
 .hero {
+   min-height: 80vh;
    text-align: center;
    padding-bottom: 30px;
    background-image: url(../img/banner.jpg);
    background-size: cover;
-   /* background-position: center bottom; */
+   background-position: center bottom;
    background-attachment: fixed;
 }
 
@@ -119,6 +120,14 @@ footer.container {
    color: #fff8;
    padding-top: 0;
 }
+.container > .back-to-top {
+   position: relative;
+}
+.container > .back-to-top > .btn {
+   position: absolute;
+   top: -25px;
+   right: -11px;
+}
 .container > .socials {
    padding: 10px 0;
    border-bottom: 2px solid #fff;
@@ -183,7 +192,10 @@ footer >.short-row > p {
    width: 100%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 580px) {
+   .container > .back-to-top {
+      display: none;
+   }
    .bottom-texts {
       flex-direction: column;
    }
